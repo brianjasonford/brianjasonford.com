@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brianjasonford/brianjasonford.com/issues"
   },
-  "homepage": "https://github.com/brianjasonford/brianjasonford.com#readme"
+  "homepage": "https://github.com/brianjasonford/brianjasonford.com#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
 }
