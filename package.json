@@ -1,0 +1,20 @@
+{
+  "name": "brianjasonford.com",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianjasonford/brianjasonford.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianjasonford/brianjasonford.com/issues"
+  },
+  "homepage": "https://github.com/brianjasonford/brianjasonford.com#readme"
+}
