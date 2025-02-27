@@ -5,7 +5,6 @@ layout: /layouts/page
 Is there a glaring omission in the list below? Is there something fun and cool that I should try? [Let me know on Mastodon](https://mastodon.social/@brianjasonford) and I'll add it! 
 
 ## 📝 To Do 
-- Figure out a better way to backup this website and roll back to prior versions when I make mistakes. This is fairly high priority, since I make mistakes often. 
 - Add RSS feed to the blog.
 - Limit the number of posts that appear on the blog page, and put the rest in an archive.
 
@@ -15,7 +14,10 @@ Is there a glaring omission in the list below? Is there something fun and cool t
 - Making separate pages for my primary interests (this might be better accomplished through the blog and tags).
 
 ## 🚧 In Progress
+- Figure out a better way to backup this website and roll back to prior versions when I make mistakes. This is fairly high priority, since I make mistakes often.
+    - I am trying to learn about GitHub, we have different definitions of ["get started"](https://support.github.com/get-started).
 - Learn about how to go about putting this website online when I add posts or make changes. I suspect that I'm doing it wrong.
+    - Eleventy has [documentation about deployment](https://www.11ty.dev/docs/deployment/). To understand that documentation, I think I have to learn about [Jamstack](https://jamstack.org).
 - Make it so that Eleventy only rebuilds files that have changed, not everything every time. (I'm sure there is a clue on [this page of the 11ty website](https://www.11ty.dev/docs/usage/).)
 
 ## ✅ Done
