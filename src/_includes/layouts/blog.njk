@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simple.css">
+    <title>Brian's Website</title>
+</head>
+<body>
+    {% include "partials/header.html" %}
+    <main>
+        {{ content | safe }}
+
+        <!-- Get all the tags from posts -->
+
+        {% set allTags = [] %}
+        {% for post in collections.all %}
+            {% if post.data.tags %}
+                {% for tag in post.data.tags %}
+                    {% if tag not in allTags %}
+                        {% set allTags = allTags.concat([tag]) %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+
+        <!--- Display unique tags as links, filtering "all and "posts," sorted alphabetically --->
+        <strong>Browse by Tag:</strong><br>
+            {% for tag in allTags | filterTagList | sortTags %}
+                <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+    </main>
+    {% include "partials/footer.html" %}
+</body>
+</html>

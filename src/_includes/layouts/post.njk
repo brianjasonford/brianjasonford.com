@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/simple.css">
+    <title>Brian's Website</title>
+</head>
+<body>
+    {% include "partials/headerPost.html" %}
+    <main>
+        {{ content | safe }}
+        <p><strong>Tags:</strong>
+            {% for tag in tags | filterTagList | sortTags %}
+                <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+        {% include "partials/backToBlog.html" %}
+    </main>
+    {% include "partials/footer.html" %}
+</body>
