@@ -4,7 +4,8 @@
   "description": "My personal website.",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "npx eleventy --serve",
+    "deploy": "rsync -avz --checksum /Users/bjf/Documents/GitHub/brianjasonford.com/public/ brianjasonford_brianjasonford@ssh.nyc1.nearlyfreespeech.net:/home/public/"
   },
   "repository": {
     "type": "git",

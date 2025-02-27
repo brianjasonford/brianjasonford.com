@@ -16,11 +16,9 @@ Is there a glaring omission in the list below? Is there something fun and cool t
 ## 🚧 In Progress
 - Figure out a better way to backup this website and roll back to prior versions when I make mistakes. This is fairly high priority, since I make mistakes often.
     - I am trying to learn about GitHub, we have different definitions of ["get started"](https://support.github.com/get-started).
-- Learn about how to go about putting this website online when I add posts or make changes. I suspect that I'm doing it wrong.
-    - Eleventy has [documentation about deployment](https://www.11ty.dev/docs/deployment/). To understand that documentation, I think I have to learn about [Jamstack](https://jamstack.org).
-- Make it so that Eleventy only rebuilds files that have changed, not everything every time. (I'm sure there is a clue on [this page of the 11ty website](https://www.11ty.dev/docs/usage/).)
 
 ## ✅ Done
+- 2025-02-27: Generated SSH keys and added a build script to `package.json` so that only changed files in my output folder go to the server using `rsync`.
 - 2025-02-25: Added tags to blog posts and made auto-updating tag pages. 
 - 2025-02-20: Added this roadmap.
 - 2025-02-20: Checked accessibility with [WAVE](https://wave.webaim.org).
@@ -29,3 +27,4 @@ Is there a glaring omission in the list below? Is there something fun and cool t
 
 ## 🛑 Stopped
 - 2025-02-25: <s>Get the "slugs" right for blog posts.</s> _Each post's file name results in a decent URL._
+- 2025-02-27 <s>Make it so that Eleventy only rebuilds files that have changed, not everything every time.</s> [Eleventy's documenation about this](https://www.11ty.dev/docs/usage/) is very good, but I solved the problem by using `rsync` to upload only changed files to the server.
