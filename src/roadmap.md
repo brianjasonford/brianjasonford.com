@@ -12,7 +12,7 @@ This page tracks changes I've made to this website and what I would like to do g
 ## 🤔 Considering
 - Using CSS or Sass to make this website look nicer. 
 - Making my sporadic, rare social media posts show up here (if possible). Likely not worth the effort.
-- Something fun with these nifty [Lucide](https://lucide.dev) icons!
+- Something fun with these nifty [Font Awesome](https://fontawesome.com) or [Lucide](https://lucide.dev) icons!
 
 
 ## 🚧 In Progress
