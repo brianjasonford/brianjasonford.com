@@ -9,9 +9,9 @@
 <body>
     {% include "partials/header.html" %}
     <main>
-        {{ content | safe }}
+        <p>Click a subject to see all posts about that subject. The latest posts appear below. There is also a <a href="https://www.brianjasonford.com/feed.xml">blog feed</a> with all posts.</p>
 
-        <!-- Get all the tags from posts -->
+        <!-- Get all the tags from posts, filter "all" an "posts", sort alphabetically -->
 
         {% set allTags = [] %}
         {% for post in collections.all %}
@@ -24,11 +24,20 @@
             {% endif %}
         {% endfor %}
 
-        <!--- Display unique tags as links, filtering "all and "posts," sorted alphabetically --->
-        <strong>Browse by Tag:</strong><br>
+        <h2>Posts by Subject</h2>
+        <p>
             {% for tag in allTags | filterTagList | sortTags %}
                 <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
+        </p>
+
+        <!-- The latest posts -->
+        <h2>Latest Posts</h2>
+        <!-- All of the blog posts, displayed as articles, in chronological order -->
+        {{ content | safe }}
+
+        {% include "partials/feedLink.html" %}
+
     </main>
     {% include "partials/footer.html" %}
 </body>

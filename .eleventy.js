@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 
 module.exports = (eleventyConfig) => {
     // Passthroughs
@@ -23,7 +24,26 @@ module.exports = (eleventyConfig) => {
 			.sort((a, b) => a.localeCompare(b));
 	});
 
-	
+	// This is for the blog feed
+	eleventyConfig.addPlugin(feedPlugin, {
+		type: "atom", // or "rss", "json"
+		outputPath: "/feed.xml",
+		collection: {
+			name: "posts", // iterate over `collections.posts`
+			limit: 10,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "Brian's Blog",
+			subtitle: "A small, personal blog.",
+			base: "https://www.brianjasonford.com",
+			author: {
+				name: "Brian Ford",
+				email: "https://mastodon.social/@brianjasonford", // Optional - 11.dev example uses email
+			}
+		}
+	});
+
 
 	return {
 		dir: {

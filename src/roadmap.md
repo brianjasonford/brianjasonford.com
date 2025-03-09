@@ -6,18 +6,21 @@ This page tracks changes I've made to this website and what I would like to do g
 
 ## 📝 To Do 
 - Limit the number of posts that appear on the blog page, and put the rest in an archive.
+- A favicon would be nice.
+- Add robots.txt ([if that matters](https://www.tomshardware.com/tech-industry/artificial-intelligence/several-ai-companies-said-to-be-ignoring-robots-dot-txt-exclusion-scraping-content-without-permission-report)). 
 
 ## 🤔 Considering
 - Using CSS or Sass to make this website look nicer. 
 - Making my sporadic, rare social media posts show up here (if possible). Likely not worth the effort.
-- Making separate pages for my primary interests (this might be better accomplished through the blog and tags).
 - Something fun with these nifty [Lucide](https://lucide.dev) icons!
-- A light/dark toggle
+
 
 ## 🚧 In Progress
-- Adding an RSS fee to the blog.
+- A light/dark toggle.
+- Making separate pages for my primary interests (paused until I have more content).
 
 ## ✅ Done
+- 2025-03-09: Added an [Atom feed to the blog](https://www.brianjasonford.com/feed.xml).
 - 2025-03-07: Revised home page, removed &ldquo;about&rdquo; page.
 - 2025-03-07: Using Github for backup. I amabout 87% sure I'm doing that correctly!
 - 2025-02-27: Generated SSH keys and added a build script to `package.json` so that only changed files in my output folder go to the server using `rsync`.
