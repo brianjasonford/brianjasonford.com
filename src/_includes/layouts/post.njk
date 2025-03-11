@@ -10,7 +10,7 @@
                 <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
         </p>
-        {% include "partials/feedLink.html" %}
+        {% include "partials/blogFeedLink.html" %}
         {% include "partials/backToBlog.html" %}
     </main>
     {% include "partials/footer.html" %}
