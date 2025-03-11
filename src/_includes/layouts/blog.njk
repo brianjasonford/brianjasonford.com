@@ -4,7 +4,8 @@
 <body>
     {% include "partials/header.html" %}
     <main>
-        <p>Click a subject to see all posts about that subject. The latest posts appear below. There is also a <a href="https://www.brianjasonford.com/feed.xml">blog feed</a> with all posts.</p>
+
+        <p class="notice"><i class="fa-solid fa-circle-info"></i> Click on a subject to see all the posts tagged with that subject. The latests posts are below. Older posts are in the archive. Use the feed at the bottom to send posts to your reader of choice.</p>
 
         <!-- Get all the tags from posts, filter "all" an "posts", sort alphabetically -->
 
@@ -31,7 +32,7 @@
         <!-- All of the blog posts, displayed as articles, in chronological order -->
         {{ content | safe }}
 
-        {% include "partials/blogFeedLink.html" %}
+        <h2>{% include "partials/blogFeedLink.html" %}</h2>
 
     </main>
     {% include "partials/footer.html" %}

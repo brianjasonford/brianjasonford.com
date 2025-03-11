@@ -22,8 +22,8 @@ module.exports = (eleventyConfig) => {
 			.sort((a, b) => a.localeCompare(b));
 	});
 
-	// Functions 
-	eleventyConfig.addPlugin(feedPlugin, { // This function is for the blog feed.
+	// Plugins
+	eleventyConfig.addPlugin(feedPlugin, { // This plugin is for the blog feed.
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed.xml",
 		collection: {
