@@ -12,12 +12,12 @@ This page tracks changes I've made to this website and what I would like to do g
 ## 🤔 Considering
 - Using CSS or Sass to make this website look nicer. 
 - Making my sporadic, rare social media posts show up here (if possible). Likely not worth the effort.
-- Something fun with these nifty [Font Awesome](https://fontawesome.com) or [Lucide](https://lucide.dev) icons!
-
 
 ## 🚧 In Progress
 - A light/dark toggle.
 - Making separate pages for my primary interests (paused until I have more content).
+- Something fun with these nifty [Font Awesome](https://fontawesome.com) or [Lucide](https://lucide.dev) icons!
+    - I made a free account with Font Awesome and installed the [Font Awesome plugin](https://github.com/11ty/eleventy-plugin-font-awesome), but have not quite figured out how to update my configuration file.
 
 ## ✅ Done
 - 2025-03-09: Added an [Atom feed to the blog](https://www.brianjasonford.com/feed.xml).
