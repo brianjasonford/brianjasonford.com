@@ -11,6 +11,7 @@ This page tracks changes I've made to this website and what I would like to do g
 
 ## 🤔 Considering
 - Using CSS or Sass to make this website look nicer. 
+    -[tailwindcss](https://tailwindcss.com) looks incredible but is probably more than I need and certainly over my head. 
 - Making my sporadic, rare social media posts show up here (if possible). Likely not worth the effort.
 
 ## 🚧 In Progress
