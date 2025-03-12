@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
+const { default: fontAwesomePlugin } = require("@11ty/font-awesome");
 
 module.exports = (eleventyConfig) => {
     // Passthroughs
@@ -41,6 +42,8 @@ module.exports = (eleventyConfig) => {
 			}
 		}
 	});
+
+	eleventyConfig.addPlugin(fontAwesomePlugin);
 
 	return {
 		dir: {
