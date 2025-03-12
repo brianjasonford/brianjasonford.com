@@ -3,7 +3,7 @@ title: Brian's Blog
 layout: /layouts/blog
 ---
 
-<h2>Latest Posts</h2>
+<h2><i class="fa-regular fa-newspaper"></i> Latest Posts</h2>
 {% for post in collections.posts reversed %}
 <article>
     <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
@@ -11,3 +11,5 @@ layout: /layouts/blog
     <p>{{ post.data.blurb }}</p>
 </article>
 {% endfor %}
+<h2><i class="fa-solid fa-rss"></i> Blog Feed</h2>
+<p>{% include "partials/blogFeedLink.html" %}</p>

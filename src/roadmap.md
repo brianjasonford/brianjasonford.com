@@ -22,7 +22,7 @@ This page tracks changes I've made to this website and what I would like to do g
 - 2025-03-12: Added [Font Awesome](https://fontawesome.com) icons by upgading to 11ty `3.0.1-alpha.4` and installing the [11ty Font Awesom plugin](https://github.com/11ty/eleventy-plugin-font-awesome) (with a lot of help from the very kind people at the [11ty Discord server](https://discord.gg/GBkBy9u)).
 - 2025-03-09: Added an [Atom feed to the blog](https://www.brianjasonford.com/feed.xml).
 - 2025-03-07: Revised home page, removed &ldquo;about&rdquo; page.
-- 2025-03-07: Using Github for backup. I amabout 87% sure I'm doing that correctly!
+- 2025-03-07: Using Github for backup. I about 87% sure I'm doing that correctly!
 - 2025-02-27: Generated SSH keys and added a build script to `package.json` so that only changed files in my output folder go to the server using `rsync`.
 - 2025-02-25: Added tags to blog posts and made auto-updating tag pages. 
 - 2025-02-20: Added this roadmap.
