@@ -7,6 +7,7 @@ title: Just a test
     <meta charset="UTF-8">
     <!-- outputs all the icons used on the page -->
     {% getBundle "fontawesome" %}
+    <link rel="stylesheet" href="/css/simple.css">
     <title>Brian's Website</title>
 </head>
 <body>

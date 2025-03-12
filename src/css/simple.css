@@ -753,3 +753,9 @@
       white-space: pre-wrap;
     }
   }
+
+  /* Fix Font Awesome icon size */
+  svg {
+    height: 1em;
+    width: 1em;
+  }
