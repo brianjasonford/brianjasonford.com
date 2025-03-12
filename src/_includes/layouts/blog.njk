@@ -5,7 +5,7 @@
     {% include "partials/header.html" %}
     <main>
 
-        <p class="notice">Click on a subject to see all the posts tagged with that subject. The latests posts are below. Older posts are in the archive. Use the feed at the bottom to send posts to your reader of choice.</p>
+        <p class="notice"><i class="fa-solid fa-circle-info"></i> Click on a subject to see all the posts tagged with that subject. The latests posts are below. Older posts are in the archive. Use the feed at the bottom to send posts to your reader of choice.</p>
 
         <!-- Get all the tags from posts, filter "all" an "posts", sort alphabetically -->
 
@@ -27,9 +27,8 @@
             {% endfor %}
         </p>
 
-        <!-- The latest posts -->
-        <h2>Latest Posts</h2>
-        <!-- All of the blog posts, displayed as articles, in chronological order -->
+        <!-- The latest posts. All of the blog posts, displayed as articles, in chronological order. -->
+
         {{ content | safe }}
 
         <h2>{% include "partials/blogFeedLink.html" %}</h2>
