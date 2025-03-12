@@ -5,22 +5,21 @@ layout: /layouts/page
 This page tracks changes I've made to this website and what I would like to do going forward. Is there a glaring omission in the list below? Is there something fun and cool that I should try? [Let me know on Mastodon](https://mastodon.social/@brianjasonford)! 
 
 ## 📝 To Do 
-- Limit the number of posts that appear on the blog page, and put the rest in an archive.
+- Limit the number of posts that appear on the blog page, and put the rest in an archive (will start once I have more content).
 - A favicon would be nice.
 - Add robots.txt ([if that matters](https://www.tomshardware.com/tech-industry/artificial-intelligence/several-ai-companies-said-to-be-ignoring-robots-dot-txt-exclusion-scraping-content-without-permission-report)). 
 
 ## 🤔 Considering
 - Using CSS or Sass to make this website look nicer. 
-    -[tailwindcss](https://tailwindcss.com) looks incredible but is probably more than I need and certainly over my head. 
+    - [tailwindcss](https://tailwindcss.com) looks incredible but is probably more than I need and certainly over my head. 
 - Making my sporadic, rare social media posts show up here (if possible). Likely not worth the effort.
 
 ## 🚧 In Progress
 - A light/dark toggle.
 - Making separate pages for my primary interests (paused until I have more content).
-- Something fun with these nifty [Font Awesome](https://fontawesome.com) or [Lucide](https://lucide.dev) icons!
-    - I made a free account with Font Awesome and installed the [Font Awesome plugin](https://github.com/11ty/eleventy-plugin-font-awesome), but have not quite figured out how to update my configuration file.
 
 ## ✅ Done
+- 2025-03-12: Added [Font Awesome](https://fontawesome.com) icons by upgading to 11ty `3.0.1-alpha.4` and installing the [11ty Font Awesom plugin](https://github.com/11ty/eleventy-plugin-font-awesome) (with a lot of help from the very kind people at the [11ty Discord server](https://discord.gg/GBkBy9u)).
 - 2025-03-09: Added an [Atom feed to the blog](https://www.brianjasonford.com/feed.xml).
 - 2025-03-07: Revised home page, removed &ldquo;about&rdquo; page.
 - 2025-03-07: Using Github for backup. I amabout 87% sure I'm doing that correctly!
