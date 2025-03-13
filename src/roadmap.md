@@ -5,7 +5,6 @@ layout: /layouts/page
 This page tracks changes I've made to this website and what I would like to do going forward. Is there a glaring omission in the list below? Is there something fun and cool that I should try? [Let me know on Mastodon](https://mastodon.social/@brianjasonford)! 
 
 ## 📝 To Do 
-- Limit the number of posts that appear on the blog page, and put the rest in an archive (will start once I have more content).
 - A favicon would be nice.
 - Add robots.txt ([if that matters](https://www.tomshardware.com/tech-industry/artificial-intelligence/several-ai-companies-said-to-be-ignoring-robots-dot-txt-exclusion-scraping-content-without-permission-report)). 
 
@@ -16,6 +15,8 @@ This page tracks changes I've made to this website and what I would like to do g
 
 ## 🚧 In Progress
 - A light/dark toggle.
+- Limit the number of posts that appear on the blog page, and put the rest in an archive.
+    - 2025-03-12 Made blog archive page.
 - Making separate pages for my primary interests (paused until I have more content).
 
 ## ✅ Done
