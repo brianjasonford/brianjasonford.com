@@ -7,7 +7,7 @@ layout: /layouts/blog
 {% for post in collections.posts reversed %}
 <article>
     <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-    <p>{{ post.data.date | postDate }}</p>
+    <p><time datetime="{{ post.data.date | cleanISO }}">{{ post.data.date | postDate }}</time></p>
     <p>{{ post.data.blurb }}</p>
 </article>
 {% endfor %}

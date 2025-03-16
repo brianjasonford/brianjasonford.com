@@ -11,8 +11,13 @@ title: Just a test
     {% getBundle "fontawesome" %}
 </head>
 <body>
-    <p>Going to use this page for experiments. Current experiment: Light/Dark toggle.</p>
-    <p>Also, still making sure the icons are working! <i class="fa-solid fa-rss"></i></p>
-    <p><i class="fa-solid fa-moon"></i> / <i class="fa-solid fa-sun"></i></p>
+    <h2><i class="fa-regular fa-newspaper"></i> Latest Posts</h2>
+    {% for post in collections.posts reversed %}
+    <article>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p><time datetime="{{ post.data.date | cleanISO }}">{{ post.data.date | postDate }}</time></p>
+        <p>{{ post.data.blurb }}</p>
+    </article>
+{% endfor %}
 </body>
 </html>

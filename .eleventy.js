@@ -12,6 +12,10 @@ module.exports = (eleventyConfig) => {
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLLL yyyy");
 	});
 
+	eleventyConfig.addFilter("cleanISO", (dateObj) => { // This filter converts 11ty's default date output to YYYY-MM-DD
+		return DateTime.fromJSDate(dateObj, { zone: "utc"}).toFormat("yyyy-MM-dd");
+	});
+
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) { // This filter removes "all" and "posts" from the tag list
 		return (tags || []).filter(tag => ["all", "posts"].indexOf(tag) === -1);
 	});
