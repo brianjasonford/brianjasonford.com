@@ -4,7 +4,8 @@ layout: /layouts/blog
 ---
 
 <h2><i class="fa-regular fa-newspaper"></i> Latest Posts</h2>
-{% for post in collections.posts reversed %}
+{% assign new_posts = collections.posts | reverse %}
+{% for post in new_posts limit:3 %}
 <article>
     <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
     <p><time datetime="{{ post.data.date | cleanISO }}">{{ post.data.date | postDate }}</time></p>

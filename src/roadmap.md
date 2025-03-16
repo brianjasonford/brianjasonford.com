@@ -17,11 +17,10 @@ I am considering changing this from a &#8220;roadmap&#8221; to a &#8220;changelo
 - Making my sporadic, rare social media posts show up here (if possible). Likely not worth the effort.
 
 ## 🚧 In Progress
-- Limit the number of posts that appear on the blog page, and put the rest in an archive.
-    - 2025-03-12 Made blog archive page.
 - Making separate pages for my primary interests (paused until I have more content).
 
 ## ✅ Done
+- 2025-03-16: Limited &ldquo;Latest Posts&rdquo; to the three most recent.
 - 2025-03-16: Added `<time>` tags to blog post dates on the blog page and each post.
 - 2025-03-12: Added [Font Awesome](https://fontawesome.com) icons by upgading to 11ty `3.0.1-alpha.4` and installing the [11ty Font Awesom plugin](https://github.com/11ty/eleventy-plugin-font-awesome) (with a lot of help from the very kind people at the [11ty Discord server](https://discord.gg/GBkBy9u)).
 - 2025-03-09: Added an [Atom feed to the blog](https://www.brianjasonford.com/feed.xml).
