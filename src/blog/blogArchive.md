@@ -1,6 +1,7 @@
 ---
 title: Brian's Blog Archive
 layout: /layouts/page
+eleventyExcludeFromCollections: ["posts"]
 ---
 
 <h2><i class="fa-solid fa-box-archive"></i> All Blog Posts</h2>

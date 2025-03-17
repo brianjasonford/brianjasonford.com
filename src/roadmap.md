@@ -20,6 +20,7 @@ I am considering changing this from a &#8220;roadmap&#8221; to a &#8220;changelo
 - Making separate pages for my primary interests (paused until I have more content).
 
 ## ✅ Done
+- 2025-03-17: Moved the [Blog Archive](/blog/blogArchive/) page to `/src/blog` and [excluded it](https://www.11ty.dev/docs/collections/#how-to-exclude-content-from-collections) from the "posts" collection so that the Blog nav bar link shows `aria-current="true"` from the Archive page.
 - 2025-03-16: Limited &ldquo;Latest Posts&rdquo; to the three most recent.
 - 2025-03-16: Added `<time>` tags to blog post dates on the blog page and each post.
 - 2025-03-12: Added [Font Awesome](https://fontawesome.com) icons by upgading to 11ty `3.0.1-alpha.4` and installing the [11ty Font Awesom plugin](https://github.com/11ty/eleventy-plugin-font-awesome) (with a lot of help from the very kind people at the [11ty Discord server](https://discord.gg/GBkBy9u)).

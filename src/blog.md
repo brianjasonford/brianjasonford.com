@@ -12,7 +12,7 @@ layout: /layouts/blog
     <p>{{ post.data.blurb }}</p>
 </article>
 {% endfor %}
-<h2><i class="fa-solid fa-box-archive"></i> <a href="/archive/">Blog Archive</a></h2>
+<h2><i class="fa-solid fa-box-archive"></i> <a href="/blog/blogArchive/">Blog Archive</a></h2>
 A list of all blog posts.
 <h2><i class="fa-solid fa-rss"></i> <a href="https://www.brianjasonford.com/feed.xml">Blog Feed</a></h2>
 Add this blog to your favorite reader.
