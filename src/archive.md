@@ -1,5 +1,5 @@
 ---
-title: Brian's Archive
+title: Brian's Blog Archive
 layout: /layouts/page
 ---
 

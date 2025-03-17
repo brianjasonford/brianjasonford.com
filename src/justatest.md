@@ -11,13 +11,10 @@ title: Just a test
     {% getBundle "fontawesome" %}
 </head>
 <body>
-    <h2><i class="fa-regular fa-newspaper"></i> Latest Posts</h2>
-    {% for post in collections.posts reversed %}
-    <article>
-        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-        <p><time datetime="{{ post.data.date | cleanISO }}">{{ post.data.date | postDate }}</time></p>
-        <p>{{ post.data.blurb }}</p>
-    </article>
+
+{% for post in collections.posts %}
+  <a href="{{ post.url }}">{{ post.data.title }}</a>
 {% endfor %}
+
 </body>
 </html>

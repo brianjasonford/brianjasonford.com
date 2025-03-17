@@ -16,8 +16,8 @@ module.exports = (eleventyConfig) => {
 		return DateTime.fromJSDate(dateObj, { zone: "utc"}).toFormat("yyyy-MM-dd");
 	});
 
-	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) { // This filter removes "all" and "posts" from the tag list
-		return (tags || []).filter(tag => ["all", "posts"].indexOf(tag) === -1);
+	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) { // This filter removes "all" "posts" and "exclude" from the tag list
+		return (tags || []).filter(tag => ["all", "posts", "exclude"].indexOf(tag) === -1);
 	});
 
 	eleventyConfig.addFilter("sortTags", function(tags) { // This filter puts the tags in alphabetical order
