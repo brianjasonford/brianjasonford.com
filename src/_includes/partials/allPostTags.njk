@@ -11,8 +11,6 @@
     {% endif %}
 {% endfor %}
 
-<p>
-    {% for tag in allTags | filterTagList | sortTags %}
-        <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-    {% endfor %}
-</p>
+{% for tag in allTags | filterTagList | sortTags %}
+    <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+{% endfor %}

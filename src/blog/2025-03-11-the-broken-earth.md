@@ -1,7 +1,7 @@
 ---
 title: The Broken Earth
 date: 2025-03-11
-blurb: I recommend The Broken Earth book trillogy by N.K. Jemisin
+blurb: I recommend The Broken Earth book trillogy by N.K. Jemisin.
 tags: 
     - Books
     - Recommendations
