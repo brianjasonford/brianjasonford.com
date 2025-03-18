@@ -41,14 +41,18 @@ I rarely post to social media, but you can find me on Mastodon: [@brianjasonford
 <section>
 <h2><i class="fa-solid fa-code"></i> Website</h2>
 
-I have no background in coding, programming, or development. I needed a lot of help to make this, and want to give credit and show appreication to the people who took time to make guides and walk me though some of the more confusing bits. I used [HTML for People](https://htmlforpeople.com) by Blake Watson to learn how to make a website. I made this website [Eleventy](https://www.11ty.dev), learning from Stephanie Eckles' great [11ty from scratch](https://egghead.io/courses/build-an-eleventy-11ty-site-from-scratch-bfd3) course and her website, [11ty Rocks!](https://11ty.rocks) The [Learn Eleventy project](https://learn-eleventy.pages.dev) and [11tybundle.dev](https://11tybundle.dev) are fantastic. The folks at the [11ty Discord server](https://www.11ty.dev/blog/discord/) have been welcoming, kind, and helpful - sometimes going out of their way to help me.
+There are lots of resaons why you might want to build website of your own. Sophie Koonin's <a href="https://localghost.dev/blog/this-page-is-under-construction/">blog post about building personal websites</a> resonated with me. But, I have no background in coding, programming, or development, so I needed a lot of help to make this. I want to show appreication to the people who took time to make guides and walk me though some of the more confusing bits. 
+
+I used [HTML for People](https://htmlforpeople.com) by Blake Watson to learn how to make a website. If, like me, you are starting at _zero_, HTML for People is the right place to start. 
+
+I made this website [Eleventy](https://www.11ty.dev), learning from Stephanie Eckles' great [11ty from scratch](https://egghead.io/courses/build-an-eleventy-11ty-site-from-scratch-bfd3) course and her website, [11ty Rocks!](https://11ty.rocks) The [Learn Eleventy project](https://learn-eleventy.pages.dev) and [11tybundle.dev](https://11tybundle.dev) are fantastic. The folks at the [11ty Discord server](https://www.11ty.dev/blog/discord/) have been welcoming, kind, and helpful - sometimes going out of their way to help me.
 
 <p class="notice">
-    <strong>Want to learn how to make a website like this?</strong><br>
-    There are lots of resaons why you might want to build website of your own. Sophie Koonin's <a href="https://localghost.dev/blog/this-page-is-under-construction/">blog post about building personal websites</a> resonated with me. If, like me, you are starting from zero, check out the free web book <a href="https://htmlforpeople.com/">HTML for People</a>. It's made for everyone and teaches you how to make a webpage in a friendly, approachable way.
+    <strong>Want to see what this website looks like under the hood?</strong><br>
+    GitHub is a great way to see how other people put their websites togheter. You can see how I bulit the website at its <a href="https://github.com/brianjasonford/brianjasonford.com">GitHub repository</a>.
 </p>
 
-You can see what this website looks like "under the hood" at its [GitHub repository](https://github.com/brianjasonford/brianjasonford.com). I've also tried my best to track the changes I've made to this website along the way. You can follow along in the changelog below.
+I'm trying to keep track of major changes to this website over time in this changelog.
 
    <details>
     <summary>Changelog</summary>
