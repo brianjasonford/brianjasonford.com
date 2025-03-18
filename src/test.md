@@ -13,7 +13,9 @@ title: Brian's Website
 <section>
 <h2><i class="fa-solid fa-house"></i> Welcome</h2>
 
-My name is Brian. I made this website because I am curious about how websites work and want the challenge of learning how to make something new. I also like the idea of having a space on the internet that I control directly. I enjoy keyboards, coffee, stories told though all sorts of media, and nerdy games. My plan is to talk about those things here, but first I have to learn how to make this website. 
+Hello! My name is Brian. I enjoy keyboards, coffee, stories told though all sorts of media, and nerdy games.
+
+I made this website because I am curious about how websites work and want the challenge of making something new. Also, Sophie Koonin's <a href="https://localghost.dev/blog/this-page-is-under-construction/">blog post about building personal websites</a> resonated with me. 
 
 ![Screen shot of this website in VS Code](/images/vscScreenShot.png)
 _What this website looked like in VS Code on the day it first went online._
@@ -41,7 +43,7 @@ I rarely post to social media, but you can find me on Mastodon: [@brianjasonford
 <section>
 <h2><i class="fa-solid fa-code"></i> Website</h2>
 
-There are lots of resaons why you might want to build website of your own. Sophie Koonin's <a href="https://localghost.dev/blog/this-page-is-under-construction/">blog post about building personal websites</a> resonated with me. But, I have no background in coding, programming, or development, so I needed a lot of help to make this. I want to show appreication to the people who took time to make guides and walk me though some of the more confusing bits. 
+I have no background in coding, programming, or development, so I needed help to make this. I appreciate the people who took time to make guides and walk me though some of the more confusing bits. 
 
 I used [HTML for People](https://htmlforpeople.com) by Blake Watson to learn how to make a website. If, like me, you are starting at _zero_, HTML for People is the right place to start. 
 
