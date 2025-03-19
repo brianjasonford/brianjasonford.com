@@ -46,6 +46,10 @@ layout: /layouts/base
         <strong>Want to see what this website looks like under the hood?</strong><br>
         GitHub is a great way to see how other people put their websites togheter. You can see how I bulit the website at its <a href="https://github.com/brianjasonford/brianjasonford.com">GitHub repository</a>.
     </p>
-    
-    {% include "partials/changelog.html" %}
+
+    I'm trying to keep track of major changes to this website over time in this changelog.
+    <details>
+        <summary>Changelog</summary>
+        {% include "partials/changelog.md" %}
+    </details>
 </section>
