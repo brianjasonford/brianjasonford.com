@@ -1,0 +1,18 @@
+
+- 2025-03-19: Renamed folder for unused files `temp`. Next step is to learn GitHub versioning. 
+- 2025-03-18: **Major Overhaul.** The former homepage, about page, and blog page have been combined into one page. Indivdual posts still stand alone. Blog tags, archive, and feed have their own place. Navigation is streamlined. Looks better on mobile, too.
+- 2025-03-17: Moved the <a href="/blog/archive">Archive</a> to <code>/src/blog</code>and <a href="https://www.11ty.dev/docs/collections/#how-to-exclude-content-from-collections">excluded it</a> from the "posts" collection so that the Blog nav bar link shows <code>aria-current="true"</code>from the Archive page.
+    - 2025-03-18: Update - Reformatted webside no longer has that navigation bar, and this feature is not working currently.
+- 2025-03-16: Limited &ldquo;Latest Posts&rdquo; to the three most recent.
+- 2025-03-16: Added <code>&lt;time&gt;</code> tags to blog post dates on the blog page and each post.
+- 2025-03-12: Added <a href="https://fontawesome.com">Font Awesome</a> icons by upgading to 11ty <code>3.0.1-alpha.4</code> and installing the <a href="https://github.com/11ty/eleventy-plugin-font-awesome">11ty Font Awesom plugin</a> (with a lot of help from the very kind people at the <a href="https://discord.gg/GBkBy9u">11ty Discord server</a>).
+- 2025-03-09: Added an <a href="https://www.brianjasonford.com/feed.xml">Atom feed</a> to the blog.
+- 2025-03-07: Revised home page, removed &ldquo;about&rdquo; page.
+- 2025-03-07: Using Github for backup. I about 87% sure I'm doing that correctly!
+- 2025-02-27: Generated SSH keys and added a build script to <code>package.json</code> so that only changed files in my output folder go to the server using <code>rsync</code>.
+- 2025-02-25: Added tags to blog posts and made auto-updating tag pages.
+- 2025-02-20: Added this roadmap.
+    - Update 2025-03-18: the roadmap morphed into this changelog.
+- 2025-02-20: Checked accessibility with <a href="https://wave.webaim.org">WAVE</a>.
+- 2025-02-20: Re-wrote the website using <a href="https://www.11ty.dev">Eleventy</a> and put it online.
+- 2025-01-04: Finished making a website with <a href="https://htmlforpeople.com">HTML for People</a> and put it online.
