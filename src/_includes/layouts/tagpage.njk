@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "partials/head.html" %}
+    <body>
+        <header>
+            <!-- add nav bar if needed -->
+            <h1>{{ title }}</h1>
+            <a href="/">Brian's Website</a>
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+    {% include "partials/footer.html" %}
+    </body>
+</html>

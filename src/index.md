@@ -1,21 +1,51 @@
 ---
 title: Brian's Website
-layout: /layouts/page
+layout: /layouts/base
 ---
+<section>
+    <h2><i class="fa-solid fa-house"></i> Welcome</h2>
+    
+    Hello! My name is Brian. I enjoy keyboards, coffee, stories told though all sorts of media, and nerdy games.
+    
+    I made this website because I am curious about how websites work and want the challenge of making something new. Also, Sophie Koonin's <a href="https://localghost.dev/blog/this-page-is-under-construction/">blog post about building personal websites</a> resonated with me. 
+    
+    ![Screen shot of this website in VS Code](/images/vscScreenShot.png)
+    _What this website looked like in VS Code on the day it first went online._
+</section>
 
-👋 _Welcome to my website!_
+<section>
+    <h2 id="writing"><i class="fa-solid fa-pencil"></i></i> Writing</h2>
+        <h3><i class="fa-regular fa-newspaper"></i> Latest Posts</h3>
+        {% assign new_posts = collections.posts | reverse %}
+        {% for post in new_posts limit:3 %}
+            <strong><a href="{{ post.url }}">{{ post.data.title }}</a></strong><br>
+            <time datetime="{{ post.data.date | cleanISO }}">{{ post.data.date | postDate }}</time><br>
+            _{{ post.data.blurb }}_
+        {% endfor %}
+        <h3><a href="/blog/writing#archive/"><i class="fa-solid fa-box-archive"></i></a> &nbsp; <a href="/blog/writing#tags/"><i class="fa-solid fa-tags"></i></a> &nbsp; <a href="/blog/writing#feed"><i class="fa-solid fa-rss"></i></a> </h3>
+</section>
 
-My name is Brian. I made this website because I am curious about how websites work and want the challenge of learning how to make something new. I also like the idea of having a space on the internet that I control directly. I enjoy keyboards, coffee, stories told though all sorts of media, and nerdy games. My plan is to talk about those things here, but first I have to learn how to make this website. 
+<section>
+    <h2><i class="fa-solid fa-address-card"></i> Me</h2>
+    
+    There is a reasonable chance that you have found this page by searching for my name. If you did that, you might know me in a professional context. Please note that this is my personal website. <strong>I will never talk about my work here.</strong> Do not contact me about my work through this website or on social media.
+    
+    I rarely post to social media, but you can find me on Mastodon: [@brianjasonford@mastodon.social](https://mastodon.social/@brianjasonford)
+</section>
 
-_I'll learn how to make this webiste by [making this website](/roadmap/)._
-
-I rarely post to social media, but lately I have been enjoying Mastodon and Discord. You can find me on Mastodon here: [@brianjasonford@mastodon.social](https://mastodon.social/@brianjasonford) 
-
-![Screen shot of this website in VS Code](/images/vscScreenShot.png)
-_What this website looked like in VS Code on the day it first went online._
-
-There is a reasonable chance that you have found this page by searching for my name. If you did that, you might know me in a professional context. Please note that this is my personal website. **I will never talk about my work here.** Do not contact me about my work through this website or on social media.
-
-<p class="notice">I learned how to make this website with <a href="https://blakewatson.com">Blake Watson's</a> awesome web book <a href="https://htmlforpeople.com">HTML for People</a>. Then, I changed how this website works and what it can do with <a href="https://www.11ty.dev">Eleventy</a>, learning from <a href="https://thinkdobecreate.com">Stephanie Eckles'</a> great <a href="https://egghead.io/courses/build-an-eleventy-11ty-site-from-scratch-bfd3">Egghead course</a> and <a href="https://11ty.rocks">11ty Rocks!</a>, the <a href="https://learn-eleventy.pages.dev">Learn Eleventy</a> project, and the examples at <a href="https://11tybundle.dev">11tybundle.dev</a>. The folks at the <a href="https://www.11ty.dev/blog/discord/">11ty Discord server</a> have been welcoming and helpful!</p>
-
-Want to see a [preview](/test/) of what I'm working on? 🤫
+<section>
+    <h2><i class="fa-solid fa-code"></i> Website</h2>
+    
+    I have no background in coding, programming, or development, so I needed help to make this. I appreciate the people who took time to make guides and walk me though some of the more confusing bits. 
+    
+    I used [HTML for People](https://htmlforpeople.com) by Blake Watson to learn how to make a website. If, like me, you are starting at _zero_, HTML for People is the right place to start. 
+    
+    I made this website [Eleventy](https://www.11ty.dev), learning from Stephanie Eckles' great [11ty from scratch](https://egghead.io/courses/build-an-eleventy-11ty-site-from-scratch-bfd3) course and her website, [11ty Rocks!](https://11ty.rocks) The [Learn Eleventy project](https://learn-eleventy.pages.dev) and [11tybundle.dev](https://11tybundle.dev) are fantastic. The folks at the [11ty Discord server](https://www.11ty.dev/blog/discord/) have been welcoming, kind, and helpful - sometimes going out of their way to help me.
+    
+    <p class="notice">
+        <strong>Want to see what this website looks like under the hood?</strong><br>
+        GitHub is a great way to see how other people put their websites togheter. You can see how I bulit the website at its <a href="https://github.com/brianjasonford/brianjasonford.com">GitHub repository</a>.
+    </p>
+    
+    {% include "partials/changelog.html" %}
+</section>

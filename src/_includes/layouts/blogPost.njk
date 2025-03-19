@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "partials/head.html" %}
+    <body>
+        <header>
+            <!-- add nav bar if needed -->
+            <h1>{{ title }}</h1>
+            <a href="/">Brian's Website</a>
+        </header>
+        <main>
+            <p><strong><time datetime="{{ date | cleanISO }}">{{ date | postDate }}</time></strong></p>
+            {{ content | safe }}
+
+            <p><strong>Tags:</strong>
+            {% for tag in tags | filterTagList | sortTags %}
+                <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+        {% include "partials/homeButton.html" %}
+        </main>
+    {% include "partials/footer.html" %}
+    </body>
+</html>

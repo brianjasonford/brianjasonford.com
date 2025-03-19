@@ -5,12 +5,8 @@
             "url": "/"
         },
         {
-            "text": "Blog",
-            "url": "/blog/"
-        },
-        {
-            "text": "Roadmap",
-            "url": "/roadmap/"
+            "text": "Writing",
+            "url": "/blog/writing"
         }
     ]
 }
